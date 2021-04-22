@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>My caption</h3>
+    <table cellpadding="10" border="3">
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2 </th>
+            <th>Heading 3 </th>
+            <th>Heading 4 </th>
+        </tr>
+        <tr>
+            <td rowspan="4"> Long column</td>
+            <td colspan="3"> Long row top</td>
+        </tr>
+        <tr>
+            <td> Data</td>
+            <td> Data</td>
+            <td> Data</td>
+        </tr>
+        <tr>
+            <td> Data</td>
+            <td colspan="2"> 2 cols merged</td>
+        </tr>
+        <tr>
+            <td colspan="3"> Long row bottom</td>
+        </tr>
+    </table>
+    </br>
+    <table border="5" width="250">
+        <tr>
+            <th colspan="3">HTML Table</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td align="center">Cell 2
+                <table border="3">
+                    <tr>
+                        <th colspan="2"> Nested HTML Table</th>
+                    </tr>
+                    <tr>
+                        <td>Cell 2.1</td>
+                        <td>Cell 2.2</td>
+                    </tr>
+                    <tr>
+                        <td>Cell 2.3</td>
+                        <td>Cell 2.4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </br>
+    <table width="500" border="2">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2" colspan="4">Topic</th>
+
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+
+
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td bgcolor="#F7D02B" rowspan="2">8:00 a.m.</td>
+            <td bgcolor="#AEAEAE" rowspan="2">5:00 p.m.</td>
+            <td align="center">Introduction to XML</td>
+        </tr>
+        <tr>
+            <td align="center">Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td bgcolor="#F7D02B">8:00 a.m.</td>
+            <td bgcolor="#F7D02B">11:00 a.m.</td>
+            <td align="center" rowspan="1.5">XPath</td>
+        </tr>
+        <tr>
+            <td bgcolor="#F7D02B">11:00 a.m.</td>
+            <td bgcolor="#31C223">2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td bgcolor="#31C223">2:00 p.m.</td>
+            <td bgcolor="#AEAEAE">5:00 p.m.</td>
+            <td align="center">XSL Transformation</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td bgcolor="#F7D02B">8:00 a.m.</td>
+            <td bgcolor="#31C223">12:00 p.m.</td>
+            <td align="center">XSL Formating objects</td>
+        </tr>
+    </table>
+</body>
+
+</html>
